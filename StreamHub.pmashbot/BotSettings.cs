@@ -26,6 +26,7 @@ namespace StreamHub.pmashbot
         {
             GlobalSettings.Clear();
             GlobalSettings = ConfigsManager.GetAllConfigs();
+            // TODO: Don't log configs every iteration
             _logger.LogInformation($"{PrintConfigs()}");
         }
 

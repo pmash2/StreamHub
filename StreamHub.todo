@@ -1,0 +1,17 @@
+pmashbot:
+    ✔ Convert bot to run as service @done(21-03-03 23:22)
+    ☐ Implement logging library
+    ☐ Monstercat add to playlist
+    ☐ Periodic static message system
+    ☐ Pomodoro timer
+    ✔ Reorganize database logic @done(21-03-03 23:24)
+    ☐ Viewer rating system
+    ☐ Separate table for storing !checkin
+    ☐ !streamstart
+    ☐ !streamend
+
+Core:
+    ☐ Finish implementing `MagicStrings`
+
+Database:
+    ☐ Script EF database updates

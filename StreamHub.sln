@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.Core", "StreamHub
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.pmashbot", "StreamHub.pmashbot\StreamHub.pmashbot.csproj", "{BEAE9047-CD2B-43D6-BCD6-071AE63EA8A8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{501CA2AC-1EE5-474C-923B-8AEAB0E4C86D}"
+	ProjectSection(SolutionItems) = preProject
+		StreamHub.todo = StreamHub.todo
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
