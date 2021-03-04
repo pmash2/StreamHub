@@ -15,7 +15,11 @@ namespace StreamHub.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Filename=./mashDbContext.sqlite");
+            var location = "./mashDbContext.sqlite";
+#if RELEASE
+            location = "../Database/mashDbContext.sqlite";
+#endif
+            optionsBuilder.UseSqlite($"Filename={location}");
         }
     }
 }
