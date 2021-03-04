@@ -1,0 +1,34 @@
+﻿using StreamHub.Database;
+using StreamHub.Database.Models;
+using System.Collections.Generic;
+using System.Linq;
+using TwitchLib.Client.Enums;
+
+namespace StreamHub.pmashbot.Commands
+{
+    public class RecordStats : ICommand
+    {
+        public UserType ProtectionLevel { get; set; }
+        public string Execute(string username, string[] args, BotSettings settings)
+        {
+            return GetRecord(username);
+        }
+
+        public static string GetRecord(string userName)
+        {
+            var message = "";
+            var records = new List<WinLoss>();
+
+            using (var context = new mashDbContext())
+            {
+                records = context.WinLoss.Where(x => x.UserName == userName).ToList();
+            }
+
+            var wins = records.Where(x => x.DidWin == true).Count();
+            var losses = records.Count - wins;
+
+            message = $"{userName}'s current win loss record is : {wins} - {losses}";
+            return message;
+        }
+    }
+}

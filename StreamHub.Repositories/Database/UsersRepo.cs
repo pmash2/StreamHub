@@ -7,14 +7,14 @@ namespace StreamHub.Repositories.Database
 {
     public class UsersRepo
     {
-        public static bool UserInDatabase(string username)
+        public bool UserInDatabase(string username)
         {
             Users user = GetUser(username);
 
             return !(user is null);
         }
 
-        public static void AddUser(string username)
+        public void AddUser(string username)
         {
             var user = new Users
             {
@@ -29,7 +29,7 @@ namespace StreamHub.Repositories.Database
             }
         }
 
-        public static Users GetUser(string username)
+        public Users GetUser(string username)
         {
             Users user;
             using (var context = new mashDbContext())

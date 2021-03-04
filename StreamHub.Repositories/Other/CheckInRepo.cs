@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace StreamHub.Repositories.Other
 {
-    public class CheckInRepo
+    public static class CheckInRepo
     {
         public static DateTime GetLastCheckIn(string username)
         {

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace StreamHub.Repositories.Database
 {
-    public class StaticCommandsRepo
+    public static class StaticCommandsRepo
     {
         public static StaticCommands GetCommand(string keyword)
         {
