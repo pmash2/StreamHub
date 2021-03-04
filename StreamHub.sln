@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.Repositories", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.Core", "StreamHub.Core\StreamHub.Core.csproj", "{38729FC6-F1EF-4F1F-BBA9-995EFED743E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.pmashbot", "StreamHub.pmashbot\StreamHub.pmashbot.csproj", "{BEAE9047-CD2B-43D6-BCD6-071AE63EA8A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{38729FC6-F1EF-4F1F-BBA9-995EFED743E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38729FC6-F1EF-4F1F-BBA9-995EFED743E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38729FC6-F1EF-4F1F-BBA9-995EFED743E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEAE9047-CD2B-43D6-BCD6-071AE63EA8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEAE9047-CD2B-43D6-BCD6-071AE63EA8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEAE9047-CD2B-43D6-BCD6-071AE63EA8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEAE9047-CD2B-43D6-BCD6-071AE63EA8A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
