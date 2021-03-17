@@ -3,18 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.Database", "StreamHub.Database\StreamHub.Database.csproj", "{3581E6A8-0462-4B48-82F8-8115E5E16A40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamHub.Database", "StreamHub.Database\StreamHub.Database.csproj", "{3581E6A8-0462-4B48-82F8-8115E5E16A40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.Repositories", "StreamHub.Repositories\StreamHub.Repositories.csproj", "{88B0BD4C-D803-47AF-B060-09F502D1DA44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamHub.Repositories", "StreamHub.Repositories\StreamHub.Repositories.csproj", "{88B0BD4C-D803-47AF-B060-09F502D1DA44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.Core", "StreamHub.Core\StreamHub.Core.csproj", "{38729FC6-F1EF-4F1F-BBA9-995EFED743E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamHub.Core", "StreamHub.Core\StreamHub.Core.csproj", "{38729FC6-F1EF-4F1F-BBA9-995EFED743E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.pmashbot", "StreamHub.pmashbot\StreamHub.pmashbot.csproj", "{BEAE9047-CD2B-43D6-BCD6-071AE63EA8A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamHub.pmashbot", "StreamHub.pmashbot\StreamHub.pmashbot.csproj", "{BEAE9047-CD2B-43D6-BCD6-071AE63EA8A8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{501CA2AC-1EE5-474C-923B-8AEAB0E4C86D}"
 	ProjectSection(SolutionItems) = preProject
 		StreamHub.todo = StreamHub.todo
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.API", "StreamHub.API\StreamHub.API.csproj", "{2676BF0E-44E1-461B-88D4-1A0E45061CBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{BEAE9047-CD2B-43D6-BCD6-071AE63EA8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEAE9047-CD2B-43D6-BCD6-071AE63EA8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEAE9047-CD2B-43D6-BCD6-071AE63EA8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2676BF0E-44E1-461B-88D4-1A0E45061CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2676BF0E-44E1-461B-88D4-1A0E45061CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2676BF0E-44E1-461B-88D4-1A0E45061CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2676BF0E-44E1-461B-88D4-1A0E45061CBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
