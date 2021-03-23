@@ -9,5 +9,6 @@ namespace StreamHub.Core
         public static readonly string CommandStart = "!";
         public static readonly string MessageHub = "chatmessage";
         public static readonly string TodayHub = "todaymessage";
+        public static readonly string HubEndpointUrl = "https://localhost:44349/";
     }
 }

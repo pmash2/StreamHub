@@ -15,3 +15,10 @@ Core:
 
 Database:
     ☐ Script EF database updates
+
+Multi:
+    ☐ Create store for users to spend points on
+        - Titles
+        - Avatars
+        - Sprites?
+        - Screen space?
